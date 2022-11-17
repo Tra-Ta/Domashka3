@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите три числа ->");
+﻿Console.WriteLine("Enter three numbers ->");
 
 int number1 = Convert.ToInt32(Console.ReadLine());
 int number2 = Convert.ToInt32(Console.ReadLine());
@@ -16,4 +16,4 @@ if (number3 > max)
     max = number3;
 }
 
-Console.WriteLine($"Наибольшее число {max}");
+Console.WriteLine($"The largest number {max}");
